@@ -24,21 +24,21 @@ const COLORS = {primary: '#fff', white: '#000'};
 const slides = [
   {
     id: '1',
-    image: require('../../../assets/images/add-money-hero.png'),
+    image: require('../../../assets/images/create.png'),
     title: 'First step ',
     subtitle: 'Register your account with us at grize.',
   },
   {
     id: '2',
-    image: require('../../../assets/images/add-money-hero.png'),
+    image: require('../../../assets/images/pick.png'),
     title: 'Second step',
     subtitle: 'Choose your favorite product.',
   },
   {
     id: '3',
-    image: require('../../../assets/images/add-money-hero.png'),
+    image: require('../../../assets/images/money.png'),
     title: 'Third step',
-    subtitle: 'I put a small amount every day until the full amount is completed and then complete the purchase.',
+    subtitle: 'put a small amount every day until the full amount is completed and then complete the purchase.',
   },
 ];
 

@@ -85,7 +85,9 @@ function Index({navigation}) {
           </View>
         </View>
         <View style={[globalStyle.row, {margin: 30}]}>
-          <Text style={globalStyle.text1}>Forget?</Text>
+         <TouchableOpacity  onPress={() => navigation.navigate('ForgetPassword')}>
+         <Text style={globalStyle.text1}>Forget?</Text>
+         </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate('SignupScreen')}>
             <Text style={globalStyle.heading1}>Register?</Text>
           </TouchableOpacity>
